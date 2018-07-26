@@ -1,9 +1,15 @@
 function mostrar()
 {
 
-	var contador=0;
-	var acumulador=0;
+	var contador=numero;
+	var acumulador=numero;
+    var respuesta='si'
+    var numero; 
+	while( respuesta == "si"){
 
+		respuesta = prompt("Desea continuar?: ");
+       
+	}		 
 
 
 document.getElementById('suma').value=acumulador;
